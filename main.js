@@ -2,6 +2,7 @@ const renderer = new Renderer()
 // const board = new GoldRush(5, 5)
 const board = new GoldRush()
 board.alter(0, 0, 1)
+//board.player1.cordinates.x
 board.alter(4, 4, 2)
 board.print() //the print method should be defined inside of Matrix
 //prints

@@ -1,8 +1,17 @@
 class GoldRush extends Matrix {
     constructor(numRows, numColumns) {
         super(numRows, numColumns)
-        this.player1Score = 0
-        this.player2Score = 0
+        this.player1 = {
+            id: 1,
+            score: 0,
+            cordinates: {x: 0, y: 0}
+        }
+
+        this.player2 = {
+            id: 2,
+            score: 0,
+            cordinates: {x: 4, y: 4}
+        }
     }
 
     addScore(player) {
